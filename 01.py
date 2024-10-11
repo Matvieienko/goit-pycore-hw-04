@@ -24,7 +24,6 @@ def total_salary(path):
     # Обробляємо помилки
     except FileNotFoundError:
         raise FileNotFoundError(f'Файлу за шляхом {path} немає.')
-        
     except Exception:
         raise Exception('Сталася помилка')
         
