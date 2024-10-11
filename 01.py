@@ -27,6 +27,6 @@ def total_salary(path):
     except Exception:
         raise Exception('Сталася помилка')
         
-# Приклад використання функції
+# Приклад використання функції 
 total, average = total_salary('salary_file.txt')
 print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
